@@ -1,14 +1,14 @@
 # TidyDataProject
 
-================================================================== 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   
 Final Project for Coursera "Getting and Cleaning Data"
-================================================================== 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   
 Note to Reviewers: Please view in raw (Notepad) Text Format.  The MD format is cause multiple lines to be formatted with the HTML h1 tag, and I haven't found out why!
-================================================================== 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   
 Student: Jeff Heatwole
 Charlottesville, VA, USA
 Github: heatwolej ( https://github.com/heatwolej/TidyDataProject )
-================================================================== 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   
 Overview:
 This readme file will explain the methodology and assumptions used in preparing and submitting the final artifacts for the course project.  In this project, the objective was to work with raw data submitted from human activity recognition experiments done with Smartphone and to combine, clean up, and summarize this information into two data sets that adhere to the principles of tidy data and are ready to be used for additional analysis.
 
@@ -16,7 +16,7 @@ The submitted data includes the following files:
 - runAnalysis.R: an R language script that can be used to generate the resulting data sets and text files that will be described below.
 - observations.txt: a tidy data table presenting all mean and standard variation measurements for each variable collected for each observation of the experiments.
 - summary_data.txt: a second tidy data table that provides the mean of all observations recorded for a specific subject performing a specific activity.
-================================================================== 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   
 Usage:
 
 In order to use this data set, the following environment is needed:
@@ -24,7 +24,7 @@ In order to use this data set, the following environment is needed:
 - The following data set should be downloaded and unzipped in the target environment
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 - The runAnalysis.R script should be saved in the same root directory/folder where the files above were unzipped.
-================================================================== 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   
 Inputs:
 
 The following raw files exist in the input data:
@@ -42,7 +42,7 @@ Directory train:
 	Y_train:  a value 1 to 6 indicating which specific activity during the training phase.
 	Subject_train:  a numeric value 1 to 30 identifying the subject that was being observed during the training phase
 	Subdirectory intertial: more detailed data that was not required to complete this exercise.
-================================================================== 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   
 Requirements definition for this assignment:
 
 The assignment specifically required demonstration of the following objectives:
@@ -56,7 +56,7 @@ The assignment specifically required demonstration of the following objectives:
 - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject [R-5].
 
 Please upload the tidy data set created in step 5 of the instructions. Please upload your data set as a txt file created with write.table() using row.name=FALSE (do not cut and paste a dataset directly into the text box, as this may cause errors saving your submission).
-================================================================== 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   
 Methodology in runAnalysis.R:
 
 The following steps were involved in the implementation process:
@@ -85,7 +85,7 @@ The following steps were involved in the implementation process:
 
 - Because we kept the ObservationType column as described above, we get a meaningless column in the data set returned by summarise_each.  Remove it.
 
-================================================================== 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   
 Outputs:
 Two tidy data sets are available at the end of this process.
 X_obs: For each of 10,299 rows describes an observation that identifies:
