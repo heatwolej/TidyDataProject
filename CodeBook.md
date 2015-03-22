@@ -28,22 +28,24 @@ For each record in the resulting data set, the following data are provided:
 
 - The data set contains both mean and standard deviation in three axial dimensions for following variables.  For each of these measurements, two statistics (mean, standard deviation) are supplied for measurements in 3 directions (x, y, x), thus there are six columns per measurement.
 
-tBodyAcc (Col 4-9)
-tGravityAcc (Col. 10-15)
-tBodyAccJerk (Col. 16-21)
-tBodyGyro (Col. 22-27)
-tBodyGyroJerk (Col. 28-33)
-fBodyAcc (Col. 44-49)
-fBodyAccJerk (Col. 50-55)
-fBodyGyro (Col. 56-61)
+- tBodyAcc (Col 4-9)
+- tGravityAcc (Col. 10-15)
+- tBodyAccJerk (Col. 16-21)
+- tBodyGyro (Col. 22-27)
+- tBodyGyroJerk (Col. 28-33)
+- fBodyAcc (Col. 44-49)
+- fBodyAccJerk (Col. 50-55)
+- fBodyGyro (Col. 56-61)
 
-- Mean and Standard Deviation pairs are supplied for each of these measurements:
-tBodyAccMag (Col. 34-35)
-tGravityAccMag(Col. 36-37)
-tBodyAccJerkMag(Col. 38-39)
-tBodyGyroMag(Col. 40-41)
-tBodyGyroJerkMag(Col. 42-43)
-fBodyAccMag (Col. 62-63)
-fBodyAccJerkMag (Col. 64-65)
-fBodyGyroMag (Col. 66-67)
-fBodyGyroJerkMag (Col. 68-69)
+Mean and Standard Deviation pairs are supplied for each of these measurements:
+
+- tBodyAccMag (Col. 34-35)
+- tGravityAccMag(Col. 36-37)
+- tBodyAccJerkMag(Col. 38-39)
+- tBodyGyroMag(Col. 40-41)
+- tBodyGyroJerkMag(Col. 42-43)
+- fBodyAccMag (Col. 62-63)
+- fBodyAccJerkMag (Col. 64-65)
+- fBodyGyroMag (Col. 66-67)
+- fBodyGyroJerkMag (Col. 68-69)
+- 
