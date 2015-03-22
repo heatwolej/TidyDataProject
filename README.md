@@ -41,6 +41,7 @@ Directory train:
 	Y_train:  a value 1 to 6 indicating which specific activity during the training phase.
 	Subject_train:  a numeric value 1 to 30 identifying the subject that was being observed during the training phase
 	Subdirectory intertial: more detailed data that was not required to complete this exercise.
+	
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   
 Requirements definition for this assignment:
 
@@ -55,6 +56,7 @@ The assignment specifically required demonstration of the following objectives:
 - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject [R-5].
 
 Please upload the tidy data set created in step 5 of the instructions. Please upload your data set as a txt file created with write.table() using row.name=FALSE (do not cut and paste a dataset directly into the text box, as this may cause errors saving your submission).
+
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   
 Methodology in runAnalysis.R:
 
