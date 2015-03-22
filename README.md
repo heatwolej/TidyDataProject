@@ -1,8 +1,10 @@
 # TidyDataProject
 
-==================================================================
+================================================================== 
 Final Project for Coursera "Getting and Cleaning Data"
-==================================================================
+================================================================== 
+Note to Reviewers: Please view in raw (Notepad) Text Format.  The MD format is cause multiple lines to be formatted with the HTML h1 tag, and I haven't found out why!
+================================================================== 
 Student: Jeff Heatwole
 Charlottesville, VA, USA
 Github: heatwolej ( https://github.com/heatwolej/TidyDataProject )
