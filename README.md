@@ -13,7 +13,7 @@ This readme file will explain the methodology and assumptions used in preparing 
 The submitted data includes the following files:
 *	runAnalysis.R: an R language script that can be used to generate the resulting data sets and text files that will be described below.
 *	observations.txt: a tidy data table presenting all mean and standard variation measurements for each variable collected for each observation of the experiments.
-+	summary_data.txt: a second tidy data table that provides the mean of all observations recorded for a specific subject performing a specific activity.
+*	summary_data.txt: a second tidy data table that provides the mean of all observations recorded for a specific subject performing a specific activity.
 ================================================================== 
 Usage:
 
