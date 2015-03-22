@@ -13,7 +13,7 @@ This readme file will explain the methodology and assumptions used in preparing 
 The submitted data includes the following files:
 *	runAnalysis.R: an R language script that can be used to generate the resulting data sets and text files that will be described below.
 *	observations.txt: a tidy data table presenting all mean and standard variation measurements for each variable collected for each observation of the experiments.
-*	summary_data.txt: a second tidy data table that provides the mean of all observations recorded for a specific subject performing a specific activity.
+-	summary_data.txt: a second tidy data table that provides the mean of all observations recorded for a specific subject performing a specific activity.
 ================================================================== 
 Usage:
 
@@ -21,7 +21,7 @@ In order to use this data set, the following environment is needed:
 *	The most recent version of “R” should be installed and working in the target environment
 *	The following data set should be downloaded and unzipped in the target environment
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-*	The runAnalysis.R script should be saved in the same root directory/folder where the files above were unzipped.
+-	The runAnalysis.R script should be saved in the same root directory/folder where the files above were unzipped.
 ================================================================== 
 Inputs:
 
