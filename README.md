@@ -3,13 +3,12 @@
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   
 Final Project for Coursera "Getting and Cleaning Data"
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   
-Note to Reviewers: Please view in raw (Notepad) Text Format.  The MD format is cause multiple lines to be formatted with the HTML h1 tag, and I haven't found out why!
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   
 Student: Jeff Heatwole
 Charlottesville, VA, USA
 Github: heatwolej ( https://github.com/heatwolej/TidyDataProject )
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   
 Overview:
+
 This readme file will explain the methodology and assumptions used in preparing and submitting the final artifacts for the course project.  In this project, the objective was to work with raw data submitted from human activity recognition experiments done with Smartphone and to combine, clean up, and summarize this information into two data sets that adhere to the principles of tidy data and are ready to be used for additional analysis.
 
 The submitted data includes the following files:
@@ -24,7 +23,7 @@ In order to use this data set, the following environment is needed:
 - The following data set should be downloaded and unzipped in the target environment
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 - The runAnalysis.R script should be saved in the same root directory/folder where the files above were unzipped.
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 Inputs:
 
 The following raw files exist in the input data:
@@ -47,7 +46,7 @@ Requirements definition for this assignment:
 
 The assignment specifically required demonstration of the following objectives:
 
- You should create one R script called run_analysis.R that does the following.  The parenthetical values are created as requirement numbers that will be referenced below…
+ 	You should create one R script called run_analysis.R that does the following.  The parenthetical values are created as requirement numbers that will be referenced below…
 
 - Merges the training and the test sets to create one data set [R-1].
 - Extracts only the measurements on the mean and standard deviation for each measurement [R-2].
@@ -87,6 +86,7 @@ The following steps were involved in the implementation process:
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   
 Outputs:
+
 Two tidy data sets are available at the end of this process.
 X_obs: For each of 10,299 rows describes an observation that identifies:
 - The subject identifier
