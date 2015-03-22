@@ -48,4 +48,3 @@ Mean and Standard Deviation pairs are supplied for each of these measurements:
 - fBodyAccJerkMag (Col. 64-65)
 - fBodyGyroMag (Col. 66-67)
 - fBodyGyroJerkMag (Col. 68-69)
-- 
